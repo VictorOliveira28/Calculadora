@@ -72,9 +72,7 @@ namespace MinhaCalculadora
                 else
                 {
                     value1 /= currentValue;
-                }
-
-                //value1 = decimal.Parse(txtResult.Text, CultureInfo.InvariantCulture);
+                }               
 
                 txtResult.Text = "";
 
