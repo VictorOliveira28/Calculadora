@@ -64,7 +64,17 @@ namespace MinhaCalculadora
         {
             if (txtResult.Text != "")
             {
-                value1 = decimal.Parse(txtResult.Text, CultureInfo.InvariantCulture);
+                decimal currentValue = decimal.Parse(txtResult.Text, CultureInfo.InvariantCulture);
+                if(value1 == 0)
+                {
+                    value1 = currentValue;
+                }
+                else
+                {
+                    value1 /= currentValue;
+                }
+
+                //value1 = decimal.Parse(txtResult.Text, CultureInfo.InvariantCulture);
 
                 txtResult.Text = "";
 
@@ -116,7 +126,14 @@ namespace MinhaCalculadora
         {
             if (txtResult.Text != "")
             {
-                value1 = decimal.Parse(txtResult.Text, CultureInfo.InvariantCulture);
+                if (value1 == 0)
+                {
+                    value1 = decimal.Parse(txtResult.Text, CultureInfo.InvariantCulture);
+                }
+                else
+                {
+                    value1 -= decimal.Parse(txtResult.Text, CultureInfo.InvariantCulture);
+                }
                 txtResult.Text = "";
                 operation = "SUBTRACTION";
             }
