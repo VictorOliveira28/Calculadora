@@ -29,12 +29,15 @@ namespace MinhaCalculadora
             if (txtResult.Text != "")
             {
                 value2 = decimal.Parse(txtResult.Text, CultureInfo.InvariantCulture);
-                if (operation == "SUM")
-                {
+            }
+
+            switch (operation)
+            {
+                case "SUM":
                     txtResult.Text = Convert.ToString(value1 + value2, CultureInfo.InvariantCulture);
-                }
-                else if (operation == "DIVISION")
-                {
+                    break;
+
+                case "DIVISION":
                     if (value2 != 0)
                     {
                         txtResult.Text = Convert.ToString(value1 / value2, CultureInfo.InvariantCulture);
@@ -43,15 +46,18 @@ namespace MinhaCalculadora
                     {
                         txtResult.Text = "ERRO";
                     }
-                }
-                else if (operation == "SUBTRACTION")
-                {
+                    break;
+
+                case "SUBTRACTION":
                     txtResult.Text = Convert.ToString(value1 - value2, CultureInfo.InvariantCulture);
-                }
-                else if (operation == "MULTIPLICATION")
-                {
+                    break;
+
+                case "MULTIPLICATION":
                     txtResult.Text = Convert.ToString(value1 * value2, CultureInfo.InvariantCulture);
-                }
+                    break;
+                default:
+                    txtResult.Text = "SELECIONE UMA OPERAÇÃO!";
+                    break;
             }
         }
         private void divide_Button(object sender, EventArgs e)
@@ -117,6 +123,8 @@ namespace MinhaCalculadora
         }
         private void mult_Button(object sender, EventArgs e)
         {
+            if (value1 == 0)
+                value1 = 1;
             if (txtResult.Text != "")
             {
                 value1 *= decimal.Parse(txtResult.Text, CultureInfo.InvariantCulture);
