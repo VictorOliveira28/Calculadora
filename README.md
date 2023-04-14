@@ -1,6 +1,6 @@
 # Calculadora Simples em C# com Windows Form
 
-Esta é uma calculadora simples desenvolvida em C# utilizando Windows Form.
+Esta é uma calculadora simples que calcula 2 números desenvolvida em C# utilizando Windows Form.
 Ela pode realizar operações básicas de matemática como adição, subtração, multiplicação e divisão.
 
 ## Como utilizar
