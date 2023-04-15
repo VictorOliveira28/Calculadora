@@ -18,8 +18,8 @@ Ela pode realizar operações básicas de matemática como adição, subtração
 • Subtração (-): realiza a subtração do primeiro número pelo segundo.
 • Multiplicação (*): realiza a multiplicação dos números inseridos.
 • Divisão (/): realiza a divisão do primeiro número pelo segundo.
-• Limpar (C): limpa os valores da tela da calculadora.
-• Resetar (CE): Limpa os valores da tela e todos os valores das variáveis.
+• Limpar (CE): limpa os valores da tela da calculadora.
+• Resetar (C): Limpa os valores da tela e todos os valores das variáveis.
 
 ## Tecnologias Utilizadas 
 
