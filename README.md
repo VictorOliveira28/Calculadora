@@ -6,7 +6,7 @@ Ela pode realizar operações básicas de matemática como adição, subtração
 ## Como utilizar
 
 1. Baixe e instale o Visual Studio.
-2. Abra o arquivo do projeto `CalculadoraSimple.sln` no Visual Studio.
+2. Abra o arquivo do projeto `MinhaCalculadora.sln` no Visual Studio.
 3. Compile e execute o projeto.
 4. Digite os números que deseja calcular utilizando os botões da calculadora.
 5. Clique no botão correspondente à operação desejada.
