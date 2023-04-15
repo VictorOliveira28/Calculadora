@@ -65,14 +65,14 @@ namespace MinhaCalculadora
             if (txtResult.Text != "")
             {
                 decimal currentValue = decimal.Parse(txtResult.Text, CultureInfo.InvariantCulture);
-                if(value1 == 0)
+                if (value1 == 0)
                 {
                     value1 = currentValue;
                 }
                 else
                 {
                     value1 /= currentValue;
-                }               
+                }
 
                 txtResult.Text = "";
 

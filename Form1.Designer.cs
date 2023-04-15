@@ -62,38 +62,41 @@
             // 
             // C_Button
             // 
+            C_Button.BackColor = Color.Orange;
             C_Button.Location = new Point(364, 89);
             C_Button.Name = "C_Button";
             C_Button.Size = new Size(72, 62);
             C_Button.TabIndex = 4;
             C_Button.Text = "C";
-            C_Button.UseVisualStyleBackColor = true;
+            C_Button.UseVisualStyleBackColor = false;
             C_Button.Click += c_Button;
             // 
             // Mult_Button
             // 
+            Mult_Button.BackColor = Color.Orange;
             Mult_Button.Location = new Point(363, 227);
             Mult_Button.Name = "Mult_Button";
             Mult_Button.Size = new Size(73, 67);
             Mult_Button.TabIndex = 6;
             Mult_Button.Text = "X";
-            Mult_Button.UseVisualStyleBackColor = true;
+            Mult_Button.UseVisualStyleBackColor = false;
             Mult_Button.Click += mult_Button;
             // 
             // Sub_Button
             // 
+            Sub_Button.BackColor = Color.Orange;
             Sub_Button.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
             Sub_Button.Location = new Point(264, 227);
             Sub_Button.Name = "Sub_Button";
             Sub_Button.Size = new Size(94, 67);
             Sub_Button.TabIndex = 11;
             Sub_Button.Text = "-";
-            Sub_Button.UseVisualStyleBackColor = true;
+            Sub_Button.UseVisualStyleBackColor = false;
             Sub_Button.Click += sub_Button;
             // 
             // _9_Button
             // 
-            _9_Button.BackColor = SystemColors.AppWorkspace;
+            _9_Button.BackColor = SystemColors.Control;
             _9_Button.Location = new Point(186, 87);
             _9_Button.Name = "_9_Button";
             _9_Button.Size = new Size(72, 64);
@@ -104,7 +107,7 @@
             // 
             // _8_Button
             // 
-            _8_Button.BackColor = SystemColors.ControlDark;
+            _8_Button.BackColor = SystemColors.Control;
             _8_Button.Location = new Point(111, 87);
             _8_Button.Name = "_8_Button";
             _8_Button.Size = new Size(69, 64);
@@ -115,7 +118,7 @@
             // 
             // _7_Button
             // 
-            _7_Button.BackColor = SystemColors.ControlDark;
+            _7_Button.BackColor = SystemColors.Control;
             _7_Button.Location = new Point(28, 87);
             _7_Button.Name = "_7_Button";
             _7_Button.Size = new Size(77, 64);
@@ -126,132 +129,145 @@
             // 
             // Sum_Button
             // 
+            Sum_Button.BackColor = Color.Orange;
             Sum_Button.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             Sum_Button.Location = new Point(264, 157);
             Sum_Button.Name = "Sum_Button";
             Sum_Button.Size = new Size(94, 64);
             Sum_Button.TabIndex = 16;
             Sum_Button.Text = "+";
-            Sum_Button.UseVisualStyleBackColor = true;
+            Sum_Button.UseVisualStyleBackColor = false;
             Sum_Button.Click += sum_Button;
             // 
             // _6_Button
             // 
+            _6_Button.BackColor = SystemColors.Control;
             _6_Button.Location = new Point(186, 157);
             _6_Button.Name = "_6_Button";
             _6_Button.Size = new Size(72, 64);
             _6_Button.TabIndex = 14;
             _6_Button.Text = "6";
-            _6_Button.UseVisualStyleBackColor = true;
+            _6_Button.UseVisualStyleBackColor = false;
             _6_Button.Click += number6_Button;
             // 
             // _5_Button
             // 
+            _5_Button.BackColor = SystemColors.Control;
             _5_Button.Location = new Point(111, 157);
             _5_Button.Name = "_5_Button";
             _5_Button.Size = new Size(69, 64);
             _5_Button.TabIndex = 13;
             _5_Button.Text = "5";
-            _5_Button.UseVisualStyleBackColor = true;
+            _5_Button.UseVisualStyleBackColor = false;
             _5_Button.Click += number5_Button;
             // 
             // _4_Button
             // 
+            _4_Button.BackColor = SystemColors.Control;
             _4_Button.Location = new Point(30, 157);
             _4_Button.Name = "_4_Button";
             _4_Button.Size = new Size(77, 64);
             _4_Button.TabIndex = 12;
             _4_Button.Text = "4";
-            _4_Button.UseVisualStyleBackColor = true;
+            _4_Button.UseVisualStyleBackColor = false;
             _4_Button.Click += number4_Button;
             // 
             // Equal_Button
             // 
+            Equal_Button.BackColor = Color.Orange;
             Equal_Button.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             Equal_Button.Location = new Point(265, 297);
             Equal_Button.Name = "Equal_Button";
             Equal_Button.Size = new Size(171, 71);
             Equal_Button.TabIndex = 21;
             Equal_Button.Text = "=";
-            Equal_Button.UseVisualStyleBackColor = true;
+            Equal_Button.UseVisualStyleBackColor = false;
             Equal_Button.Click += equal_Button;
             // 
             // _0_Button
             // 
+            _0_Button.BackColor = SystemColors.Control;
             _0_Button.Location = new Point(28, 297);
             _0_Button.Name = "_0_Button";
             _0_Button.Size = new Size(152, 71);
             _0_Button.TabIndex = 20;
             _0_Button.Text = "0";
-            _0_Button.UseVisualStyleBackColor = true;
+            _0_Button.UseVisualStyleBackColor = false;
             _0_Button.Click += number0_Button;
             // 
             // _3_Button
             // 
+            _3_Button.BackColor = SystemColors.Control;
             _3_Button.Location = new Point(186, 227);
             _3_Button.Name = "_3_Button";
             _3_Button.Size = new Size(72, 64);
             _3_Button.TabIndex = 19;
             _3_Button.Text = "3";
-            _3_Button.UseVisualStyleBackColor = true;
+            _3_Button.UseVisualStyleBackColor = false;
             _3_Button.Click += number3_Button;
             // 
             // _2_Button
             // 
+            _2_Button.BackColor = SystemColors.Control;
             _2_Button.Location = new Point(111, 227);
             _2_Button.Name = "_2_Button";
             _2_Button.Size = new Size(69, 64);
             _2_Button.TabIndex = 18;
             _2_Button.Text = "2";
-            _2_Button.UseVisualStyleBackColor = true;
+            _2_Button.UseVisualStyleBackColor = false;
             _2_Button.Click += number2_Button;
             // 
             // _1_Button
             // 
+            _1_Button.BackColor = SystemColors.Control;
             _1_Button.Location = new Point(30, 227);
             _1_Button.Name = "_1_Button";
             _1_Button.Size = new Size(77, 64);
             _1_Button.TabIndex = 17;
             _1_Button.Text = "1";
-            _1_Button.UseVisualStyleBackColor = true;
+            _1_Button.UseVisualStyleBackColor = false;
             _1_Button.Click += number1_Button;
             // 
             // Dot_Button
             // 
+            Dot_Button.BackColor = SystemColors.Control;
             Dot_Button.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            Dot_Button.Location = new Point(188, 297);
+            Dot_Button.Location = new Point(186, 297);
             Dot_Button.Name = "Dot_Button";
-            Dot_Button.Size = new Size(72, 71);
+            Dot_Button.Size = new Size(74, 71);
             Dot_Button.TabIndex = 22;
             Dot_Button.Text = ".";
-            Dot_Button.UseVisualStyleBackColor = true;
+            Dot_Button.UseVisualStyleBackColor = false;
             Dot_Button.Click += dot_Button;
             // 
             // Divide_Button
             // 
+            Divide_Button.BackColor = Color.Orange;
             Divide_Button.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             Divide_Button.Location = new Point(363, 157);
             Divide_Button.Name = "Divide_Button";
             Divide_Button.Size = new Size(73, 64);
             Divide_Button.TabIndex = 23;
             Divide_Button.Text = "/";
-            Divide_Button.UseVisualStyleBackColor = true;
+            Divide_Button.UseVisualStyleBackColor = false;
             Divide_Button.Click += divide_Button;
             // 
             // CE_Button
             // 
+            CE_Button.BackColor = Color.Orange;
             CE_Button.Location = new Point(264, 89);
             CE_Button.Name = "CE_Button";
             CE_Button.Size = new Size(94, 62);
             CE_Button.TabIndex = 25;
             CE_Button.Text = "CE";
-            CE_Button.UseVisualStyleBackColor = true;
+            CE_Button.UseVisualStyleBackColor = false;
             CE_Button.Click += ce_Button;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(444, 384);
             Controls.Add(CE_Button);
             Controls.Add(Divide_Button);
@@ -272,6 +288,7 @@
             Controls.Add(Mult_Button);
             Controls.Add(C_Button);
             Controls.Add(txtResult);
+            ForeColor = SystemColors.ActiveCaptionText;
             Name = "Form1";
             Text = "Calculadora";
             ResumeLayout(false);
