@@ -3,14 +3,16 @@ using System.Globalization;
 namespace MinhaCalculadora
 {
 
-    public partial class Form1 : Form
+    public partial class FormCalculadora : Form
     {
-        public Form1()
+        public FormCalculadora()
         {
             InitializeComponent();
         }
+
         decimal value1 = 0, value2 = 0;
         string operation = "";
+
         private void sum_Button(object sender, EventArgs e)
         {
             if (txtResult.Text != "")
@@ -20,10 +22,13 @@ namespace MinhaCalculadora
                 operation = "SUM";
             }
         }
+
+
         private void number0_Button(object sender, EventArgs e)
         {
             txtResult.Text += "0";
         }
+
         private void equal_Button(object sender, EventArgs e)
         {
             if (txtResult.Text != "")
@@ -60,6 +65,7 @@ namespace MinhaCalculadora
                     break;
             }
         }
+
         private void divide_Button(object sender, EventArgs e)
         {
             if (txtResult.Text != "")
@@ -79,47 +85,58 @@ namespace MinhaCalculadora
                 operation = "DIVISION";
             }
         }
+
         private void number1_Button(object sender, EventArgs e)
         {
             txtResult.Text += "1";
         }
+
         private void number2_Button(object sender, EventArgs e)
         {
             txtResult.Text += "2";
         }
+
         private void number3_Button(object sender, EventArgs e)
         {
             txtResult.Text += "3";
         }
+
         private void number4_Button(object sender, EventArgs e)
         {
             txtResult.Text += "4";
         }
+
         private void number5_Button(object sender, EventArgs e)
         {
             txtResult.Text += "5";
         }
+
         private void number6_Button(object sender, EventArgs e)
         {
             txtResult.Text += "6";
         }
+
         private void number7_Button(object sender, EventArgs e)
         {
             txtResult.Text += "7";
         }
+
         private void number8_Button(object sender, EventArgs e)
         {
             txtResult.Text += "8";
         }
+
         private void number9_Button(object sender, EventArgs e)
         {
             txtResult.Text += "9";
         }
+
         private void dot_Button(object sender, EventArgs e)
         {
             if (!txtResult.Text.Contains("."))
                 txtResult.Text += ".";
         }
+
         private void sub_Button(object sender, EventArgs e)
         {
             if (txtResult.Text != "")
@@ -136,6 +153,7 @@ namespace MinhaCalculadora
                 operation = "SUBTRACTION";
             }
         }
+
         private void mult_Button(object sender, EventArgs e)
         {
             if (value1 == 0)
@@ -147,19 +165,23 @@ namespace MinhaCalculadora
                 operation = "MULTIPLICATION";
             }
         }
+
         private void c_Button(object sender, EventArgs e)
         {
             txtResult.Text = "";
             value1 = 0;
             value2 = 0;
         }
+
         private void ce_Button(object sender, EventArgs e)
         {
             txtResult.Text = "";
         }
+
         private void txtResult_TextChanged(object sender, EventArgs e)
         {
 
         }
+
     }
 }

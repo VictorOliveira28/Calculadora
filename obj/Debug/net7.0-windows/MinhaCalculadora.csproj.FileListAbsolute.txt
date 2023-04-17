@@ -1,5 +1,4 @@
 C:\Users\marcu\Documents\ProjetoCSharp\MinhaCalculadora\MinhaCalculadora\obj\Debug\net7.0-windows\MinhaCalculadora.csproj.AssemblyReference.cache
-C:\Users\marcu\Documents\ProjetoCSharp\MinhaCalculadora\MinhaCalculadora\obj\Debug\net7.0-windows\MinhaCalculadora.Form1.resources
 C:\Users\marcu\Documents\ProjetoCSharp\MinhaCalculadora\MinhaCalculadora\obj\Debug\net7.0-windows\MinhaCalculadora.Properties.Resources.resources
 C:\Users\marcu\Documents\ProjetoCSharp\MinhaCalculadora\MinhaCalculadora\obj\Debug\net7.0-windows\MinhaCalculadora.csproj.GenerateResource.cache
 C:\Users\marcu\Documents\ProjetoCSharp\MinhaCalculadora\MinhaCalculadora\obj\Debug\net7.0-windows\MinhaCalculadora.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +15,4 @@ C:\Users\marcu\Documents\ProjetoCSharp\MinhaCalculadora\MinhaCalculadora\bin\Deb
 C:\Users\marcu\Documents\ProjetoCSharp\MinhaCalculadora\MinhaCalculadora\bin\Debug\net7.0-windows\MinhaCalculadora.pdb
 C:\Users\marcu\Documents\ProjetoCSharp\MinhaCalculadora\MinhaCalculadora\obj\Debug\net7.0-windows\MinhaCalculadora.genruntimeconfig.cache
 C:\Users\marcu\Documents\ProjetoCSharp\MinhaCalculadora\MinhaCalculadora\obj\Debug\net7.0-windows\ref\MinhaCalculadora.dll
+C:\Users\marcu\Documents\ProjetoCSharp\MinhaCalculadora\MinhaCalculadora\obj\Debug\net7.0-windows\MinhaCalculadora.FormCalculadora.resources
